@@ -1,0 +1,129 @@
+.body {
+  width: auto;
+  height: auto;
+}
+
+/* HEADER */
+.header {
+  margin-top: -10px;
+}
+
+.header img {
+  margin-top: -30px;
+}
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -110px;
+  font-family: Helvetica, Sans-Serif;
+  color:#4c1951;
+}
+
+.header p {
+  margin-top: -50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: bold;
+  color:#4c1951;
+}
+
+.header span {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+
+
+/*LINK*/
+a:link { color:#4c1951; text-decoration: none}
+a:visited { color:#4c1951; text-decoration: none}
+a:active { color:#4c1951; text-decoration: none}
+
+
+
+
+
+/* TABLE */
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: normal;
+  border-collapse: collapse;
+  padding-bottom: 5%;
+}
+
+.thead {
+  background-color: #4c1951;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
+}
+
+
+th.place {
+  border-left: 5px solid #4c1951;
+  padding-left: 20px;
+  width: 50px;
+}
+
+th.team {
+  width: 250px;
+}
+
+th.points {
+  width: 200px;
+}
+
+th.goals {
+  width: 200px;
+}
+
+th.MP {
+  width: 200px;
+}
+
+th.WDL {
+  width: 200px;
+}
+
+
+td.tl {
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+td.LDC {
+  border-left: 5px solid blue;
+}
+
+td.europa {
+  border-left: 5px solid orange;
+}
+td.pl {
+  border-left: 5px solid rgb(229, 229, 229);
+}
+
+td.relegation {
+  border-left: 5px solid red;
+}
+
+
+
+td {
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px solid black;
+  border-collapse: collapse;
+}
