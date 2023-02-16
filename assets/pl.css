@@ -1,42 +1,38 @@
 .body {
-  width: auto;
-  height: auto;
+  margin: 0;
+  padding: 0;
 }
+
+
 
 /* HEADER */
 .header {
-  margin-top: -10px;
-}
-
-.header img {
-  margin-top: -30px;
-}
-
-.header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -110px;
+}
+.title {
   font-family: Helvetica, Sans-Serif;
   color:#4c1951;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
-
-.header p {
-  margin-top: -50px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+.logo {
+  width: 300px;
+}
+.links {
   font-family: Helvetica, Sans-Serif;
   font-weight: bold;
   color:#4c1951;
+  display: flex;
+  white-space: nowrap;
+  justify-content: space-evenly;
 }
-
-.header span {
-  margin-left: 50px;
-  margin-right: 50px;
+.links span {
+  margin-inline-start: 3em;
+  margin-inline-end: 2em;
 }
-
-
 
 
 
@@ -44,8 +40,6 @@
 a:link { color:#4c1951; text-decoration: none}
 a:visited { color:#4c1951; text-decoration: none}
 a:active { color:#4c1951; text-decoration: none}
-
-
 
 
 
@@ -119,11 +113,34 @@ td.relegation {
 }
 
 
-
 td {
   height: 40px;
   text-align: center;
   vertical-align: middle;
   border-top: 1px solid black;
   border-collapse: collapse;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .links {
+    flex-direction: column;
+  }
+  .links span {
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .logo {
+    width: 200px;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .links span {
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+  }
 }
