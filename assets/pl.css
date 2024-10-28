@@ -19,7 +19,7 @@
   text-align: center;
 }
 .logo {
-  width: 25vw;
+  width: 20vw;
   height: auto;
 }
 .links {
@@ -29,7 +29,7 @@
   display: flex;
   white-space: nowrap;
   justify-content: space-evenly;
-  width: 25vw;
+  width: 20vw;
 }
 .links span {
   margin-inline-start: 3em;
