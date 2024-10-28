@@ -19,7 +19,8 @@
   text-align: center;
 }
 .logo {
-  width: 300px;
+  width: 25vw;
+  height: auto;
 }
 .links {
   font-family: Helvetica, Sans-Serif;
@@ -28,6 +29,7 @@
   display: flex;
   white-space: nowrap;
   justify-content: space-evenly;
+  width: 25vw;
 }
 .links span {
   margin-inline-start: 3em;
